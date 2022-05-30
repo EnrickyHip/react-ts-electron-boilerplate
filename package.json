@@ -1,7 +1,8 @@
 {
-  "name": "react-electron-ts",
+  "name": "react-ts-electron",
   "main": "build/main.js",
   "version": "0.1.0",
+  "homepage": "./",
   "private": true,
   "dependencies": {
     "react": "^18.1.0",
@@ -13,7 +14,7 @@
     "electron": "electron .",
     "dev": "tsc -p tsconfig.json --watch",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && tsc -p tsconfig.json",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

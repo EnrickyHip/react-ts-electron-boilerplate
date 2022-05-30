@@ -5,5 +5,5 @@
 <ul>
   <li>npm start ->  to run the server at http://localhost:3000/</li>
   <li>npm run dev -> to compile TypeScript files to /build in runtime.</li>
-  <li>npm run electron -> electron to open on desktop.</li>
+  <li>npm run electron -> to open on desktop.</li>
 </ul>
